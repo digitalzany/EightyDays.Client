@@ -1,10 +1,9 @@
-﻿import 'babel-polyfill'
-import React from 'react'
+﻿import React from 'react'
 import {render} from 'react-dom'
 import AppRoot from 'src/app/main/ui/containers/RouteContainer'
 import configureStore from 'src/app/main/store/appStore'
 
-const store = configureStore()
+const store = configureStore();
 render(
     <AppRoot store={store}   />,
     document.getElementById('app')

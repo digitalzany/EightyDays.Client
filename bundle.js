@@ -1,67 +1,489 @@
 webpackJsonp([0],{
 
 /***/ 0:
+/*!*****************!*\
+  !*** multi app ***!
+  \*****************/
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(1);
+	module.exports = __webpack_require__(/*! D:\Code\EightyDays\EightyDays\EightyDays.WebUI/index.js */1);
 
 
 /***/ },
 
 /***/ 1:
+/*!******************!*\
+  !*** ./index.js ***!
+  \******************/
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\n__webpack_require__(2);\n\nvar _react = __webpack_require__(299);\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(455);\n\nvar _RouteContainer = __webpack_require__(456);\n\nvar _RouteContainer2 = _interopRequireDefault(_RouteContainer);\n\nvar _appStore = __webpack_require__(540);\n\nvar _appStore2 = _interopRequireDefault(_appStore);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nvar store = (0, _appStore2[\"default\"])();\n(0, _reactDom.render)(_react2[\"default\"].createElement(_RouteContainer2[\"default\"], { store: store }), document.getElementById('app'));//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9pbmRleC5qcz81ZTFhIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBLHNDQUFzQyx1Q0FBdUMsa0JBQWtCOztBQUUvRjtBQUNBLHFGQUFxRixlQUFlIiwiZmlsZSI6IjEuanMiLCJzb3VyY2VzQ29udGVudCI6WyIndXNlIHN0cmljdCc7XG5cbnJlcXVpcmUoJ2JhYmVsLXBvbHlmaWxsJyk7XG5cbnZhciBfcmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG52YXIgX3JlYWN0MiA9IF9pbnRlcm9wUmVxdWlyZURlZmF1bHQoX3JlYWN0KTtcblxudmFyIF9yZWFjdERvbSA9IHJlcXVpcmUoJ3JlYWN0LWRvbScpO1xuXG52YXIgX1JvdXRlQ29udGFpbmVyID0gcmVxdWlyZSgnc3JjL2FwcC9tYWluL3VpL2NvbnRhaW5lcnMvUm91dGVDb250YWluZXInKTtcblxudmFyIF9Sb3V0ZUNvbnRhaW5lcjIgPSBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0KF9Sb3V0ZUNvbnRhaW5lcik7XG5cbnZhciBfYXBwU3RvcmUgPSByZXF1aXJlKCdzcmMvYXBwL21haW4vc3RvcmUvYXBwU3RvcmUnKTtcblxudmFyIF9hcHBTdG9yZTIgPSBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0KF9hcHBTdG9yZSk7XG5cbmZ1bmN0aW9uIF9pbnRlcm9wUmVxdWlyZURlZmF1bHQob2JqKSB7IHJldHVybiBvYmogJiYgb2JqLl9fZXNNb2R1bGUgPyBvYmogOiB7IFwiZGVmYXVsdFwiOiBvYmogfTsgfVxuXG52YXIgc3RvcmUgPSAoMCwgX2FwcFN0b3JlMltcImRlZmF1bHRcIl0pKCk7XG4oMCwgX3JlYWN0RG9tLnJlbmRlcikoX3JlYWN0MltcImRlZmF1bHRcIl0uY3JlYXRlRWxlbWVudChfUm91dGVDb250YWluZXIyW1wiZGVmYXVsdFwiXSwgeyBzdG9yZTogc3RvcmUgfSksIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhcHAnKSk7XG5cblxuLyoqKioqKioqKioqKioqKioqXG4gKiogV0VCUEFDSyBGT09URVJcbiAqKiAuL2luZGV4LmpzXG4gKiogbW9kdWxlIGlkID0gMVxuICoqIG1vZHVsZSBjaHVua3MgPSAwXG4gKiovIl0sInNvdXJjZVJvb3QiOiIifQ==");
+	'use strict';
+	
+	var _react = __webpack_require__(/*! react */ 2);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactDom = __webpack_require__(/*! react-dom */ 159);
+	
+	var _RouteContainer = __webpack_require__(/*! src/app/main/ui/containers/RouteContainer */ 160);
+	
+	var _RouteContainer2 = _interopRequireDefault(_RouteContainer);
+	
+	var _appStore = __webpack_require__(/*! src/app/main/store/appStore */ 245);
+	
+	var _appStore2 = _interopRequireDefault(_appStore);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	var store = (0, _appStore2["default"])();
+	(0, _reactDom.render)(_react2["default"].createElement(_RouteContainer2["default"], { store: store }), document.getElementById('app'));
 
 /***/ },
 
-/***/ 456:
+/***/ 160:
+/*!******************************************************!*\
+  !*** ./src/app/main/ui/containers/RouteContainer.js ***!
+  \******************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = __webpack_require__(299);\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactRedux = __webpack_require__(457);\n\nvar _reactRouter = __webpack_require__(480);\n\nvar _appHistory = __webpack_require__(536);\n\nvar AppHistory = _interopRequireWildcard(_appHistory);\n\nvar _AppContainer = __webpack_require__(537);\n\nvar _AppContainer2 = _interopRequireDefault(_AppContainer);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj[\"default\"] = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar DashboardContainer = function (_Component) {\n    _inherits(DashboardContainer, _Component);\n\n    function DashboardContainer() {\n        _classCallCheck(this, DashboardContainer);\n\n        return _possibleConstructorReturn(this, _Component.apply(this, arguments));\n    }\n\n    DashboardContainer.prototype.render = function render() {\n        return _react2[\"default\"].createElement(\n            'div',\n            null,\n            'Dashboard'\n        );\n    };\n\n    return DashboardContainer;\n}(_react.Component);\n\nvar RouteContainer = function (_Component2) {\n    _inherits(RouteContainer, _Component2);\n\n    function RouteContainer() {\n        _classCallCheck(this, RouteContainer);\n\n        return _possibleConstructorReturn(this, _Component2.apply(this, arguments));\n    }\n\n    RouteContainer.prototype.render = function render() {\n        var store = this.props.store;\n\n        var appHistory = AppHistory.getAppHistory();\n        return _react2[\"default\"].createElement(\n            _reactRedux.Provider,\n            { store: store },\n            _react2[\"default\"].createElement(\n                'div',\n                null,\n                _react2[\"default\"].createElement(\n                    _reactRouter.Router,\n                    { history: appHistory },\n                    _react2[\"default\"].createElement(\n                        _reactRouter.Route,\n                        { path: '/', component: _AppContainer2[\"default\"] },\n                        _react2[\"default\"].createElement(_reactRouter.IndexRoute, { component: DashboardContainer })\n                    )\n                )\n            )\n        );\n    };\n\n    return RouteContainer;\n}(_react.Component);\n\nRouteContainer.propTypes = {\n    store: _react.PropTypes.object.isRequired\n};\n\nexports[\"default\"] = RouteContainer;//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYXBwL21haW4vdWkvY29udGFpbmVycy9Sb3V0ZUNvbnRhaW5lci5qcz9jMzEzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztBQUVBO0FBQ0E7QUFDQSxDQUFDOztBQUVEOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBLHVDQUF1Qyw2QkFBNkIsWUFBWSxFQUFFLE9BQU8saUJBQWlCLG1CQUFtQix1QkFBdUIsNEVBQTRFLEVBQUUsRUFBRSx5QkFBeUIsZUFBZSxFQUFFOztBQUU5USxzQ0FBc0MsdUNBQXVDLGtCQUFrQjs7QUFFL0YsaURBQWlELDBDQUEwQywwREFBMEQsRUFBRTs7QUFFdkosaURBQWlELGFBQWEsdUZBQXVGLEVBQUUsdUZBQXVGOztBQUU5TywwQ0FBMEMsK0RBQStELHFHQUFxRyxFQUFFLHlFQUF5RSxlQUFlLHlFQUF5RSxFQUFFLEVBQUUsdUhBQXVIOztBQUU1ZTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBLENBQUM7O0FBRUQ7QUFDQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQSxhQUFhLGVBQWU7QUFDNUI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLHFCQUFxQixzQkFBc0I7QUFDM0M7QUFDQTtBQUNBLHlCQUF5QixrREFBa0Q7QUFDM0UsbUZBQW1GLGdDQUFnQztBQUNuSDtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBO0FBQ0EsQ0FBQzs7QUFFRDtBQUNBO0FBQ0E7O0FBRUEiLCJmaWxlIjoiNDU2LmpzIiwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnO1xuXG5PYmplY3QuZGVmaW5lUHJvcGVydHkoZXhwb3J0cywgXCJfX2VzTW9kdWxlXCIsIHtcbiAgICB2YWx1ZTogdHJ1ZVxufSk7XG5cbnZhciBfcmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG52YXIgX3JlYWN0MiA9IF9pbnRlcm9wUmVxdWlyZURlZmF1bHQoX3JlYWN0KTtcblxudmFyIF9yZWFjdFJlZHV4ID0gcmVxdWlyZSgncmVhY3QtcmVkdXgnKTtcblxudmFyIF9yZWFjdFJvdXRlciA9IHJlcXVpcmUoJ3JlYWN0LXJvdXRlcicpO1xuXG52YXIgX2FwcEhpc3RvcnkgPSByZXF1aXJlKCdzcmMvYXBwL21haW4vbW9kdWxlcy9hcHBIaXN0b3J5Jyk7XG5cbnZhciBBcHBIaXN0b3J5ID0gX2ludGVyb3BSZXF1aXJlV2lsZGNhcmQoX2FwcEhpc3RvcnkpO1xuXG52YXIgX0FwcENvbnRhaW5lciA9IHJlcXVpcmUoJ3NyYy9hcHAvbWFpbi91aS9jb250YWluZXJzL0FwcENvbnRhaW5lcicpO1xuXG52YXIgX0FwcENvbnRhaW5lcjIgPSBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0KF9BcHBDb250YWluZXIpO1xuXG5mdW5jdGlvbiBfaW50ZXJvcFJlcXVpcmVXaWxkY2FyZChvYmopIHsgaWYgKG9iaiAmJiBvYmouX19lc01vZHVsZSkgeyByZXR1cm4gb2JqOyB9IGVsc2UgeyB2YXIgbmV3T2JqID0ge307IGlmIChvYmogIT0gbnVsbCkgeyBmb3IgKHZhciBrZXkgaW4gb2JqKSB7IGlmIChPYmplY3QucHJvdG90eXBlLmhhc093blByb3BlcnR5LmNhbGwob2JqLCBrZXkpKSBuZXdPYmpba2V5XSA9IG9ialtrZXldOyB9IH0gbmV3T2JqW1wiZGVmYXVsdFwiXSA9IG9iajsgcmV0dXJuIG5ld09iajsgfSB9XG5cbmZ1bmN0aW9uIF9pbnRlcm9wUmVxdWlyZURlZmF1bHQob2JqKSB7IHJldHVybiBvYmogJiYgb2JqLl9fZXNNb2R1bGUgPyBvYmogOiB7IFwiZGVmYXVsdFwiOiBvYmogfTsgfVxuXG5mdW5jdGlvbiBfY2xhc3NDYWxsQ2hlY2soaW5zdGFuY2UsIENvbnN0cnVjdG9yKSB7IGlmICghKGluc3RhbmNlIGluc3RhbmNlb2YgQ29uc3RydWN0b3IpKSB7IHRocm93IG5ldyBUeXBlRXJyb3IoXCJDYW5ub3QgY2FsbCBhIGNsYXNzIGFzIGEgZnVuY3Rpb25cIik7IH0gfVxuXG5mdW5jdGlvbiBfcG9zc2libGVDb25zdHJ1Y3RvclJldHVybihzZWxmLCBjYWxsKSB7IGlmICghc2VsZikgeyB0aHJvdyBuZXcgUmVmZXJlbmNlRXJyb3IoXCJ0aGlzIGhhc24ndCBiZWVuIGluaXRpYWxpc2VkIC0gc3VwZXIoKSBoYXNuJ3QgYmVlbiBjYWxsZWRcIik7IH0gcmV0dXJuIGNhbGwgJiYgKHR5cGVvZiBjYWxsID09PSBcIm9iamVjdFwiIHx8IHR5cGVvZiBjYWxsID09PSBcImZ1bmN0aW9uXCIpID8gY2FsbCA6IHNlbGY7IH1cblxuZnVuY3Rpb24gX2luaGVyaXRzKHN1YkNsYXNzLCBzdXBlckNsYXNzKSB7IGlmICh0eXBlb2Ygc3VwZXJDbGFzcyAhPT0gXCJmdW5jdGlvblwiICYmIHN1cGVyQ2xhc3MgIT09IG51bGwpIHsgdGhyb3cgbmV3IFR5cGVFcnJvcihcIlN1cGVyIGV4cHJlc3Npb24gbXVzdCBlaXRoZXIgYmUgbnVsbCBvciBhIGZ1bmN0aW9uLCBub3QgXCIgKyB0eXBlb2Ygc3VwZXJDbGFzcyk7IH0gc3ViQ2xhc3MucHJvdG90eXBlID0gT2JqZWN0LmNyZWF0ZShzdXBlckNsYXNzICYmIHN1cGVyQ2xhc3MucHJvdG90eXBlLCB7IGNvbnN0cnVjdG9yOiB7IHZhbHVlOiBzdWJDbGFzcywgZW51bWVyYWJsZTogZmFsc2UsIHdyaXRhYmxlOiB0cnVlLCBjb25maWd1cmFibGU6IHRydWUgfSB9KTsgaWYgKHN1cGVyQ2xhc3MpIE9iamVjdC5zZXRQcm90b3R5cGVPZiA/IE9iamVjdC5zZXRQcm90b3R5cGVPZihzdWJDbGFzcywgc3VwZXJDbGFzcykgOiBzdWJDbGFzcy5fX3Byb3RvX18gPSBzdXBlckNsYXNzOyB9XG5cbnZhciBEYXNoYm9hcmRDb250YWluZXIgPSBmdW5jdGlvbiAoX0NvbXBvbmVudCkge1xuICAgIF9pbmhlcml0cyhEYXNoYm9hcmRDb250YWluZXIsIF9Db21wb25lbnQpO1xuXG4gICAgZnVuY3Rpb24gRGFzaGJvYXJkQ29udGFpbmVyKCkge1xuICAgICAgICBfY2xhc3NDYWxsQ2hlY2sodGhpcywgRGFzaGJvYXJkQ29udGFpbmVyKTtcblxuICAgICAgICByZXR1cm4gX3Bvc3NpYmxlQ29uc3RydWN0b3JSZXR1cm4odGhpcywgX0NvbXBvbmVudC5hcHBseSh0aGlzLCBhcmd1bWVudHMpKTtcbiAgICB9XG5cbiAgICBEYXNoYm9hcmRDb250YWluZXIucHJvdG90eXBlLnJlbmRlciA9IGZ1bmN0aW9uIHJlbmRlcigpIHtcbiAgICAgICAgcmV0dXJuIF9yZWFjdDJbXCJkZWZhdWx0XCJdLmNyZWF0ZUVsZW1lbnQoXG4gICAgICAgICAgICAnZGl2JyxcbiAgICAgICAgICAgIG51bGwsXG4gICAgICAgICAgICAnRGFzaGJvYXJkJ1xuICAgICAgICApO1xuICAgIH07XG5cbiAgICByZXR1cm4gRGFzaGJvYXJkQ29udGFpbmVyO1xufShfcmVhY3QuQ29tcG9uZW50KTtcblxudmFyIFJvdXRlQ29udGFpbmVyID0gZnVuY3Rpb24gKF9Db21wb25lbnQyKSB7XG4gICAgX2luaGVyaXRzKFJvdXRlQ29udGFpbmVyLCBfQ29tcG9uZW50Mik7XG5cbiAgICBmdW5jdGlvbiBSb3V0ZUNvbnRhaW5lcigpIHtcbiAgICAgICAgX2NsYXNzQ2FsbENoZWNrKHRoaXMsIFJvdXRlQ29udGFpbmVyKTtcblxuICAgICAgICByZXR1cm4gX3Bvc3NpYmxlQ29uc3RydWN0b3JSZXR1cm4odGhpcywgX0NvbXBvbmVudDIuYXBwbHkodGhpcywgYXJndW1lbnRzKSk7XG4gICAgfVxuXG4gICAgUm91dGVDb250YWluZXIucHJvdG90eXBlLnJlbmRlciA9IGZ1bmN0aW9uIHJlbmRlcigpIHtcbiAgICAgICAgdmFyIHN0b3JlID0gdGhpcy5wcm9wcy5zdG9yZTtcblxuICAgICAgICB2YXIgYXBwSGlzdG9yeSA9IEFwcEhpc3RvcnkuZ2V0QXBwSGlzdG9yeSgpO1xuICAgICAgICByZXR1cm4gX3JlYWN0MltcImRlZmF1bHRcIl0uY3JlYXRlRWxlbWVudChcbiAgICAgICAgICAgIF9yZWFjdFJlZHV4LlByb3ZpZGVyLFxuICAgICAgICAgICAgeyBzdG9yZTogc3RvcmUgfSxcbiAgICAgICAgICAgIF9yZWFjdDJbXCJkZWZhdWx0XCJdLmNyZWF0ZUVsZW1lbnQoXG4gICAgICAgICAgICAgICAgJ2RpdicsXG4gICAgICAgICAgICAgICAgbnVsbCxcbiAgICAgICAgICAgICAgICBfcmVhY3QyW1wiZGVmYXVsdFwiXS5jcmVhdGVFbGVtZW50KFxuICAgICAgICAgICAgICAgICAgICBfcmVhY3RSb3V0ZXIuUm91dGVyLFxuICAgICAgICAgICAgICAgICAgICB7IGhpc3Rvcnk6IGFwcEhpc3RvcnkgfSxcbiAgICAgICAgICAgICAgICAgICAgX3JlYWN0MltcImRlZmF1bHRcIl0uY3JlYXRlRWxlbWVudChcbiAgICAgICAgICAgICAgICAgICAgICAgIF9yZWFjdFJvdXRlci5Sb3V0ZSxcbiAgICAgICAgICAgICAgICAgICAgICAgIHsgcGF0aDogJy8nLCBjb21wb25lbnQ6IF9BcHBDb250YWluZXIyW1wiZGVmYXVsdFwiXSB9LFxuICAgICAgICAgICAgICAgICAgICAgICAgX3JlYWN0MltcImRlZmF1bHRcIl0uY3JlYXRlRWxlbWVudChfcmVhY3RSb3V0ZXIuSW5kZXhSb3V0ZSwgeyBjb21wb25lbnQ6IERhc2hib2FyZENvbnRhaW5lciB9KVxuICAgICAgICAgICAgICAgICAgICApXG4gICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgKVxuICAgICAgICApO1xuICAgIH07XG5cbiAgICByZXR1cm4gUm91dGVDb250YWluZXI7XG59KF9yZWFjdC5Db21wb25lbnQpO1xuXG5Sb3V0ZUNvbnRhaW5lci5wcm9wVHlwZXMgPSB7XG4gICAgc3RvcmU6IF9yZWFjdC5Qcm9wVHlwZXMub2JqZWN0LmlzUmVxdWlyZWRcbn07XG5cbmV4cG9ydHNbXCJkZWZhdWx0XCJdID0gUm91dGVDb250YWluZXI7XG5cblxuLyoqKioqKioqKioqKioqKioqXG4gKiogV0VCUEFDSyBGT09URVJcbiAqKiAuL3NyYy9hcHAvbWFpbi91aS9jb250YWluZXJzL1JvdXRlQ29udGFpbmVyLmpzXG4gKiogbW9kdWxlIGlkID0gNDU2XG4gKiogbW9kdWxlIGNodW5rcyA9IDBcbiAqKi8iXSwic291cmNlUm9vdCI6IiJ9");
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 2);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactRedux = __webpack_require__(/*! react-redux */ 161);
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 184);
+	
+	var _appHistory = __webpack_require__(/*! src/app/main/modules/appHistory */ 240);
+	
+	var AppHistory = _interopRequireWildcard(_appHistory);
+	
+	var _AppContainer = __webpack_require__(/*! src/app/main/ui/containers/AppContainer */ 241);
+	
+	var _AppContainer2 = _interopRequireDefault(_AppContainer);
+	
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj["default"] = obj; return newObj; } }
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var DashboardContainer = function (_Component) {
+	    _inherits(DashboardContainer, _Component);
+	
+	    function DashboardContainer() {
+	        _classCallCheck(this, DashboardContainer);
+	
+	        return _possibleConstructorReturn(this, _Component.apply(this, arguments));
+	    }
+	
+	    DashboardContainer.prototype.render = function render() {
+	        return _react2["default"].createElement(
+	            'div',
+	            null,
+	            'Dashboard'
+	        );
+	    };
+	
+	    return DashboardContainer;
+	}(_react.Component);
+	
+	var RouteContainer = function (_Component2) {
+	    _inherits(RouteContainer, _Component2);
+	
+	    function RouteContainer() {
+	        _classCallCheck(this, RouteContainer);
+	
+	        return _possibleConstructorReturn(this, _Component2.apply(this, arguments));
+	    }
+	
+	    RouteContainer.prototype.render = function render() {
+	        var store = this.props.store;
+	
+	        var appHistory = AppHistory.getAppHistory();
+	        return _react2["default"].createElement(
+	            _reactRedux.Provider,
+	            { store: store },
+	            _react2["default"].createElement(
+	                'div',
+	                null,
+	                _react2["default"].createElement(
+	                    _reactRouter.Router,
+	                    { history: appHistory },
+	                    _react2["default"].createElement(
+	                        _reactRouter.Route,
+	                        { path: '/', component: _AppContainer2["default"] },
+	                        _react2["default"].createElement(_reactRouter.IndexRoute, { component: DashboardContainer })
+	                    )
+	                )
+	            )
+	        );
+	    };
+	
+	    return RouteContainer;
+	}(_react.Component);
+	
+	RouteContainer.propTypes = {
+	    store: _react.PropTypes.object.isRequired
+	};
+	
+	exports["default"] = RouteContainer;
 
 /***/ },
 
-/***/ 536:
+/***/ 240:
+/*!********************************************!*\
+  !*** ./src/app/main/modules/appHistory.js ***!
+  \********************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nexports.getAppHistory = getAppHistory;\n\nvar _reactRouter = __webpack_require__(480);\n\nfunction getAppHistory() {\n    return _reactRouter.hashHistory;\n}//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYXBwL21haW4vbW9kdWxlcy9hcHBIaXN0b3J5LmpzPzI0YjQiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0FBRUE7QUFDQTtBQUNBLENBQUM7QUFDRDs7QUFFQTs7QUFFQTtBQUNBO0FBQ0EiLCJmaWxlIjoiNTM2LmpzIiwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnO1xuXG5PYmplY3QuZGVmaW5lUHJvcGVydHkoZXhwb3J0cywgXCJfX2VzTW9kdWxlXCIsIHtcbiAgICB2YWx1ZTogdHJ1ZVxufSk7XG5leHBvcnRzLmdldEFwcEhpc3RvcnkgPSBnZXRBcHBIaXN0b3J5O1xuXG52YXIgX3JlYWN0Um91dGVyID0gcmVxdWlyZSgncmVhY3Qtcm91dGVyJyk7XG5cbmZ1bmN0aW9uIGdldEFwcEhpc3RvcnkoKSB7XG4gICAgcmV0dXJuIF9yZWFjdFJvdXRlci5oYXNoSGlzdG9yeTtcbn1cblxuXG4vKioqKioqKioqKioqKioqKipcbiAqKiBXRUJQQUNLIEZPT1RFUlxuICoqIC4vc3JjL2FwcC9tYWluL21vZHVsZXMvYXBwSGlzdG9yeS5qc1xuICoqIG1vZHVsZSBpZCA9IDUzNlxuICoqIG1vZHVsZSBjaHVua3MgPSAwXG4gKiovIl0sInNvdXJjZVJvb3QiOiIifQ==");
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports.getAppHistory = getAppHistory;
+	
+	var _reactRouter = __webpack_require__(/*! react-router */ 184);
+	
+	function getAppHistory() {
+	    return _reactRouter.hashHistory;
+	}
 
 /***/ },
 
-/***/ 537:
+/***/ 241:
+/*!****************************************************!*\
+  !*** ./src/app/main/ui/containers/AppContainer.js ***!
+  \****************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = __webpack_require__(299);\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _redux = __webpack_require__(464);\n\nvar _reactRedux = __webpack_require__(457);\n\nvar _AppLayout = __webpack_require__(538);\n\nvar _AppLayout2 = _interopRequireDefault(_AppLayout);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar bindToContext = function bindToContext(context) {\n    for (var _len = arguments.length, methods = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {\n        methods[_key - 1] = arguments[_key];\n    }\n\n    methods.forEach(function (method) {\n        return context[method] = context[method].bind(context);\n    });\n};\n\nvar AppContainer = function (_Component) {\n    _inherits(AppContainer, _Component);\n\n    function AppContainer(props, context) {\n        _classCallCheck(this, AppContainer);\n\n        return _possibleConstructorReturn(this, _Component.call(this, props, context));\n        //bindToContext(this, 'somemethod');\n    }\n\n    AppContainer.prototype.render = function render() {\n        var children = this.props.children;\n\n        return _react2[\"default\"].createElement(_AppLayout2[\"default\"], { appContent: children });\n    };\n\n    return AppContainer;\n}(_react.Component);\n\nAppContainer.propTypes = {\n    children: _react.PropTypes.node\n};\n\nfunction mapStateToProps(state) {\n    //TODO\n    return {};\n}\n\nfunction mapDispatchToProps(dispatch) {\n    //TODO\n    return {};\n}\n\nexports[\"default\"] = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(AppContainer);//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYXBwL21haW4vdWkvY29udGFpbmVycy9BcHBDb250YWluZXIuanM/N2NhMiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7QUFFQTtBQUNBO0FBQ0EsQ0FBQzs7QUFFRDs7QUFFQTs7QUFFQTs7QUFFQTs7QUFFQTs7QUFFQTs7QUFFQSxzQ0FBc0MsdUNBQXVDLGtCQUFrQjs7QUFFL0YsaURBQWlELDBDQUEwQywwREFBMEQsRUFBRTs7QUFFdkosaURBQWlELGFBQWEsdUZBQXVGLEVBQUUsdUZBQXVGOztBQUU5TywwQ0FBMEMsK0RBQStELHFHQUFxRyxFQUFFLHlFQUF5RSxlQUFlLHlFQUF5RSxFQUFFLEVBQUUsdUhBQXVIOztBQUU1ZTtBQUNBLHlGQUF5RixhQUFhO0FBQ3RHO0FBQ0E7O0FBRUE7QUFDQTtBQUNBLEtBQUs7QUFDTDs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUEseUVBQXlFLHVCQUF1QjtBQUNoRzs7QUFFQTtBQUNBLENBQUM7O0FBRUQ7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBOztBQUVBIiwiZmlsZSI6IjUzNy5qcyIsInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0JztcblxuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiX19lc01vZHVsZVwiLCB7XG4gICAgdmFsdWU6IHRydWVcbn0pO1xuXG52YXIgX3JlYWN0ID0gcmVxdWlyZSgncmVhY3QnKTtcblxudmFyIF9yZWFjdDIgPSBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0KF9yZWFjdCk7XG5cbnZhciBfcmVkdXggPSByZXF1aXJlKCdyZWR1eCcpO1xuXG52YXIgX3JlYWN0UmVkdXggPSByZXF1aXJlKCdyZWFjdC1yZWR1eCcpO1xuXG52YXIgX0FwcExheW91dCA9IHJlcXVpcmUoJ3NyYy9hcHAvbWFpbi91aS9jb21wb25lbnRzL0FwcExheW91dCcpO1xuXG52YXIgX0FwcExheW91dDIgPSBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0KF9BcHBMYXlvdXQpO1xuXG5mdW5jdGlvbiBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0KG9iaikgeyByZXR1cm4gb2JqICYmIG9iai5fX2VzTW9kdWxlID8gb2JqIDogeyBcImRlZmF1bHRcIjogb2JqIH07IH1cblxuZnVuY3Rpb24gX2NsYXNzQ2FsbENoZWNrKGluc3RhbmNlLCBDb25zdHJ1Y3RvcikgeyBpZiAoIShpbnN0YW5jZSBpbnN0YW5jZW9mIENvbnN0cnVjdG9yKSkgeyB0aHJvdyBuZXcgVHlwZUVycm9yKFwiQ2Fubm90IGNhbGwgYSBjbGFzcyBhcyBhIGZ1bmN0aW9uXCIpOyB9IH1cblxuZnVuY3Rpb24gX3Bvc3NpYmxlQ29uc3RydWN0b3JSZXR1cm4oc2VsZiwgY2FsbCkgeyBpZiAoIXNlbGYpIHsgdGhyb3cgbmV3IFJlZmVyZW5jZUVycm9yKFwidGhpcyBoYXNuJ3QgYmVlbiBpbml0aWFsaXNlZCAtIHN1cGVyKCkgaGFzbid0IGJlZW4gY2FsbGVkXCIpOyB9IHJldHVybiBjYWxsICYmICh0eXBlb2YgY2FsbCA9PT0gXCJvYmplY3RcIiB8fCB0eXBlb2YgY2FsbCA9PT0gXCJmdW5jdGlvblwiKSA/IGNhbGwgOiBzZWxmOyB9XG5cbmZ1bmN0aW9uIF9pbmhlcml0cyhzdWJDbGFzcywgc3VwZXJDbGFzcykgeyBpZiAodHlwZW9mIHN1cGVyQ2xhc3MgIT09IFwiZnVuY3Rpb25cIiAmJiBzdXBlckNsYXNzICE9PSBudWxsKSB7IHRocm93IG5ldyBUeXBlRXJyb3IoXCJTdXBlciBleHByZXNzaW9uIG11c3QgZWl0aGVyIGJlIG51bGwgb3IgYSBmdW5jdGlvbiwgbm90IFwiICsgdHlwZW9mIHN1cGVyQ2xhc3MpOyB9IHN1YkNsYXNzLnByb3RvdHlwZSA9IE9iamVjdC5jcmVhdGUoc3VwZXJDbGFzcyAmJiBzdXBlckNsYXNzLnByb3RvdHlwZSwgeyBjb25zdHJ1Y3RvcjogeyB2YWx1ZTogc3ViQ2xhc3MsIGVudW1lcmFibGU6IGZhbHNlLCB3cml0YWJsZTogdHJ1ZSwgY29uZmlndXJhYmxlOiB0cnVlIH0gfSk7IGlmIChzdXBlckNsYXNzKSBPYmplY3Quc2V0UHJvdG90eXBlT2YgPyBPYmplY3Quc2V0UHJvdG90eXBlT2Yoc3ViQ2xhc3MsIHN1cGVyQ2xhc3MpIDogc3ViQ2xhc3MuX19wcm90b19fID0gc3VwZXJDbGFzczsgfVxuXG52YXIgYmluZFRvQ29udGV4dCA9IGZ1bmN0aW9uIGJpbmRUb0NvbnRleHQoY29udGV4dCkge1xuICAgIGZvciAodmFyIF9sZW4gPSBhcmd1bWVudHMubGVuZ3RoLCBtZXRob2RzID0gQXJyYXkoX2xlbiA+IDEgPyBfbGVuIC0gMSA6IDApLCBfa2V5ID0gMTsgX2tleSA8IF9sZW47IF9rZXkrKykge1xuICAgICAgICBtZXRob2RzW19rZXkgLSAxXSA9IGFyZ3VtZW50c1tfa2V5XTtcbiAgICB9XG5cbiAgICBtZXRob2RzLmZvckVhY2goZnVuY3Rpb24gKG1ldGhvZCkge1xuICAgICAgICByZXR1cm4gY29udGV4dFttZXRob2RdID0gY29udGV4dFttZXRob2RdLmJpbmQoY29udGV4dCk7XG4gICAgfSk7XG59O1xuXG52YXIgQXBwQ29udGFpbmVyID0gZnVuY3Rpb24gKF9Db21wb25lbnQpIHtcbiAgICBfaW5oZXJpdHMoQXBwQ29udGFpbmVyLCBfQ29tcG9uZW50KTtcblxuICAgIGZ1bmN0aW9uIEFwcENvbnRhaW5lcihwcm9wcywgY29udGV4dCkge1xuICAgICAgICBfY2xhc3NDYWxsQ2hlY2sodGhpcywgQXBwQ29udGFpbmVyKTtcblxuICAgICAgICByZXR1cm4gX3Bvc3NpYmxlQ29uc3RydWN0b3JSZXR1cm4odGhpcywgX0NvbXBvbmVudC5jYWxsKHRoaXMsIHByb3BzLCBjb250ZXh0KSk7XG4gICAgICAgIC8vYmluZFRvQ29udGV4dCh0aGlzLCAnc29tZW1ldGhvZCcpO1xuICAgIH1cblxuICAgIEFwcENvbnRhaW5lci5wcm90b3R5cGUucmVuZGVyID0gZnVuY3Rpb24gcmVuZGVyKCkge1xuICAgICAgICB2YXIgY2hpbGRyZW4gPSB0aGlzLnByb3BzLmNoaWxkcmVuO1xuXG4gICAgICAgIHJldHVybiBfcmVhY3QyW1wiZGVmYXVsdFwiXS5jcmVhdGVFbGVtZW50KF9BcHBMYXlvdXQyW1wiZGVmYXVsdFwiXSwgeyBhcHBDb250ZW50OiBjaGlsZHJlbiB9KTtcbiAgICB9O1xuXG4gICAgcmV0dXJuIEFwcENvbnRhaW5lcjtcbn0oX3JlYWN0LkNvbXBvbmVudCk7XG5cbkFwcENvbnRhaW5lci5wcm9wVHlwZXMgPSB7XG4gICAgY2hpbGRyZW46IF9yZWFjdC5Qcm9wVHlwZXMubm9kZVxufTtcblxuZnVuY3Rpb24gbWFwU3RhdGVUb1Byb3BzKHN0YXRlKSB7XG4gICAgLy9UT0RPXG4gICAgcmV0dXJuIHt9O1xufVxuXG5mdW5jdGlvbiBtYXBEaXNwYXRjaFRvUHJvcHMoZGlzcGF0Y2gpIHtcbiAgICAvL1RPRE9cbiAgICByZXR1cm4ge307XG59XG5cbmV4cG9ydHNbXCJkZWZhdWx0XCJdID0gKDAsIF9yZWFjdFJlZHV4LmNvbm5lY3QpKG1hcFN0YXRlVG9Qcm9wcywgbWFwRGlzcGF0Y2hUb1Byb3BzKShBcHBDb250YWluZXIpO1xuXG5cbi8qKioqKioqKioqKioqKioqKlxuICoqIFdFQlBBQ0sgRk9PVEVSXG4gKiogLi9zcmMvYXBwL21haW4vdWkvY29udGFpbmVycy9BcHBDb250YWluZXIuanNcbiAqKiBtb2R1bGUgaWQgPSA1MzdcbiAqKiBtb2R1bGUgY2h1bmtzID0gMFxuICoqLyJdLCJzb3VyY2VSb290IjoiIn0=");
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 2);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _redux = __webpack_require__(/*! redux */ 168);
+	
+	var _reactRedux = __webpack_require__(/*! react-redux */ 161);
+	
+	var _AppLayout = __webpack_require__(/*! src/app/main/ui/components/AppLayout */ 242);
+	
+	var _AppLayout2 = _interopRequireDefault(_AppLayout);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var bindToContext = function bindToContext(context) {
+	    for (var _len = arguments.length, methods = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+	        methods[_key - 1] = arguments[_key];
+	    }
+	
+	    methods.forEach(function (method) {
+	        return context[method] = context[method].bind(context);
+	    });
+	};
+	
+	var AppContainer = function (_Component) {
+	    _inherits(AppContainer, _Component);
+	
+	    function AppContainer(props, context) {
+	        _classCallCheck(this, AppContainer);
+	
+	        return _possibleConstructorReturn(this, _Component.call(this, props, context));
+	        //bindToContext(this, 'somemethod');
+	    }
+	
+	    AppContainer.prototype.render = function render() {
+	        var children = this.props.children;
+	
+	        return _react2["default"].createElement(_AppLayout2["default"], { appContent: children });
+	    };
+	
+	    return AppContainer;
+	}(_react.Component);
+	
+	AppContainer.propTypes = {
+	    children: _react.PropTypes.node
+	};
+	
+	function mapStateToProps(state) {
+	    //TODO
+	    return {};
+	}
+	
+	function mapDispatchToProps(dispatch) {
+	    //TODO
+	    return {};
+	}
+	
+	exports["default"] = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(AppContainer);
 
 /***/ },
 
-/***/ 538:
+/***/ 242:
+/*!*************************************************!*\
+  !*** ./src/app/main/ui/components/AppLayout.js ***!
+  \*************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = __webpack_require__(299);\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _HeaderComponent = __webpack_require__(539);\n\nvar _HeaderComponent2 = _interopRequireDefault(_HeaderComponent);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar AppLayout = function (_Component) {\n    _inherits(AppLayout, _Component);\n\n    function AppLayout() {\n        _classCallCheck(this, AppLayout);\n\n        return _possibleConstructorReturn(this, _Component.apply(this, arguments));\n    }\n\n    AppLayout.prototype.render = function render() {\n        var appContent = this.props.appContent;\n\n        return _react2[\"default\"].createElement(\n            'div',\n            null,\n            _react2[\"default\"].createElement(_HeaderComponent2[\"default\"], null),\n            _react2[\"default\"].createElement(\n                'div',\n                null,\n                appContent\n            )\n        );\n    };\n\n    return AppLayout;\n}(_react.Component);\n\nAppLayout.propTypes = {\n    appContent: _react.PropTypes.node\n};\nexports[\"default\"] = AppLayout;//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYXBwL21haW4vdWkvY29tcG9uZW50cy9BcHBMYXlvdXQuanM/NWU2NyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7QUFFQTtBQUNBO0FBQ0EsQ0FBQzs7QUFFRDs7QUFFQTs7QUFFQTs7QUFFQTs7QUFFQSxzQ0FBc0MsdUNBQXVDLGtCQUFrQjs7QUFFL0YsaURBQWlELDBDQUEwQywwREFBMEQsRUFBRTs7QUFFdkosaURBQWlELGFBQWEsdUZBQXVGLEVBQUUsdUZBQXVGOztBQUU5TywwQ0FBMEMsK0RBQStELHFHQUFxRyxFQUFFLHlFQUF5RSxlQUFlLHlFQUF5RSxFQUFFLEVBQUUsdUhBQXVIOztBQUU1ZTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQSxDQUFDOztBQUVEO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6IjUzOC5qcyIsInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0JztcblxuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiX19lc01vZHVsZVwiLCB7XG4gICAgdmFsdWU6IHRydWVcbn0pO1xuXG52YXIgX3JlYWN0ID0gcmVxdWlyZSgncmVhY3QnKTtcblxudmFyIF9yZWFjdDIgPSBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0KF9yZWFjdCk7XG5cbnZhciBfSGVhZGVyQ29tcG9uZW50ID0gcmVxdWlyZSgnc3JjL2FwcC9tYWluL3VpL2NvbXBvbmVudHMvSGVhZGVyQ29tcG9uZW50Jyk7XG5cbnZhciBfSGVhZGVyQ29tcG9uZW50MiA9IF9pbnRlcm9wUmVxdWlyZURlZmF1bHQoX0hlYWRlckNvbXBvbmVudCk7XG5cbmZ1bmN0aW9uIF9pbnRlcm9wUmVxdWlyZURlZmF1bHQob2JqKSB7IHJldHVybiBvYmogJiYgb2JqLl9fZXNNb2R1bGUgPyBvYmogOiB7IFwiZGVmYXVsdFwiOiBvYmogfTsgfVxuXG5mdW5jdGlvbiBfY2xhc3NDYWxsQ2hlY2soaW5zdGFuY2UsIENvbnN0cnVjdG9yKSB7IGlmICghKGluc3RhbmNlIGluc3RhbmNlb2YgQ29uc3RydWN0b3IpKSB7IHRocm93IG5ldyBUeXBlRXJyb3IoXCJDYW5ub3QgY2FsbCBhIGNsYXNzIGFzIGEgZnVuY3Rpb25cIik7IH0gfVxuXG5mdW5jdGlvbiBfcG9zc2libGVDb25zdHJ1Y3RvclJldHVybihzZWxmLCBjYWxsKSB7IGlmICghc2VsZikgeyB0aHJvdyBuZXcgUmVmZXJlbmNlRXJyb3IoXCJ0aGlzIGhhc24ndCBiZWVuIGluaXRpYWxpc2VkIC0gc3VwZXIoKSBoYXNuJ3QgYmVlbiBjYWxsZWRcIik7IH0gcmV0dXJuIGNhbGwgJiYgKHR5cGVvZiBjYWxsID09PSBcIm9iamVjdFwiIHx8IHR5cGVvZiBjYWxsID09PSBcImZ1bmN0aW9uXCIpID8gY2FsbCA6IHNlbGY7IH1cblxuZnVuY3Rpb24gX2luaGVyaXRzKHN1YkNsYXNzLCBzdXBlckNsYXNzKSB7IGlmICh0eXBlb2Ygc3VwZXJDbGFzcyAhPT0gXCJmdW5jdGlvblwiICYmIHN1cGVyQ2xhc3MgIT09IG51bGwpIHsgdGhyb3cgbmV3IFR5cGVFcnJvcihcIlN1cGVyIGV4cHJlc3Npb24gbXVzdCBlaXRoZXIgYmUgbnVsbCBvciBhIGZ1bmN0aW9uLCBub3QgXCIgKyB0eXBlb2Ygc3VwZXJDbGFzcyk7IH0gc3ViQ2xhc3MucHJvdG90eXBlID0gT2JqZWN0LmNyZWF0ZShzdXBlckNsYXNzICYmIHN1cGVyQ2xhc3MucHJvdG90eXBlLCB7IGNvbnN0cnVjdG9yOiB7IHZhbHVlOiBzdWJDbGFzcywgZW51bWVyYWJsZTogZmFsc2UsIHdyaXRhYmxlOiB0cnVlLCBjb25maWd1cmFibGU6IHRydWUgfSB9KTsgaWYgKHN1cGVyQ2xhc3MpIE9iamVjdC5zZXRQcm90b3R5cGVPZiA/IE9iamVjdC5zZXRQcm90b3R5cGVPZihzdWJDbGFzcywgc3VwZXJDbGFzcykgOiBzdWJDbGFzcy5fX3Byb3RvX18gPSBzdXBlckNsYXNzOyB9XG5cbnZhciBBcHBMYXlvdXQgPSBmdW5jdGlvbiAoX0NvbXBvbmVudCkge1xuICAgIF9pbmhlcml0cyhBcHBMYXlvdXQsIF9Db21wb25lbnQpO1xuXG4gICAgZnVuY3Rpb24gQXBwTGF5b3V0KCkge1xuICAgICAgICBfY2xhc3NDYWxsQ2hlY2sodGhpcywgQXBwTGF5b3V0KTtcblxuICAgICAgICByZXR1cm4gX3Bvc3NpYmxlQ29uc3RydWN0b3JSZXR1cm4odGhpcywgX0NvbXBvbmVudC5hcHBseSh0aGlzLCBhcmd1bWVudHMpKTtcbiAgICB9XG5cbiAgICBBcHBMYXlvdXQucHJvdG90eXBlLnJlbmRlciA9IGZ1bmN0aW9uIHJlbmRlcigpIHtcbiAgICAgICAgdmFyIGFwcENvbnRlbnQgPSB0aGlzLnByb3BzLmFwcENvbnRlbnQ7XG5cbiAgICAgICAgcmV0dXJuIF9yZWFjdDJbXCJkZWZhdWx0XCJdLmNyZWF0ZUVsZW1lbnQoXG4gICAgICAgICAgICAnZGl2JyxcbiAgICAgICAgICAgIG51bGwsXG4gICAgICAgICAgICBfcmVhY3QyW1wiZGVmYXVsdFwiXS5jcmVhdGVFbGVtZW50KF9IZWFkZXJDb21wb25lbnQyW1wiZGVmYXVsdFwiXSwgbnVsbCksXG4gICAgICAgICAgICBfcmVhY3QyW1wiZGVmYXVsdFwiXS5jcmVhdGVFbGVtZW50KFxuICAgICAgICAgICAgICAgICdkaXYnLFxuICAgICAgICAgICAgICAgIG51bGwsXG4gICAgICAgICAgICAgICAgYXBwQ29udGVudFxuICAgICAgICAgICAgKVxuICAgICAgICApO1xuICAgIH07XG5cbiAgICByZXR1cm4gQXBwTGF5b3V0O1xufShfcmVhY3QuQ29tcG9uZW50KTtcblxuQXBwTGF5b3V0LnByb3BUeXBlcyA9IHtcbiAgICBhcHBDb250ZW50OiBfcmVhY3QuUHJvcFR5cGVzLm5vZGVcbn07XG5leHBvcnRzW1wiZGVmYXVsdFwiXSA9IEFwcExheW91dDtcblxuXG4vKioqKioqKioqKioqKioqKipcbiAqKiBXRUJQQUNLIEZPT1RFUlxuICoqIC4vc3JjL2FwcC9tYWluL3VpL2NvbXBvbmVudHMvQXBwTGF5b3V0LmpzXG4gKiogbW9kdWxlIGlkID0gNTM4XG4gKiogbW9kdWxlIGNodW5rcyA9IDBcbiAqKi8iXSwic291cmNlUm9vdCI6IiJ9");
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 2);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _HeaderComponent = __webpack_require__(/*! src/app/main/ui/components/HeaderComponent */ 243);
+	
+	var _HeaderComponent2 = _interopRequireDefault(_HeaderComponent);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var AppLayout = function (_Component) {
+	    _inherits(AppLayout, _Component);
+	
+	    function AppLayout() {
+	        _classCallCheck(this, AppLayout);
+	
+	        return _possibleConstructorReturn(this, _Component.apply(this, arguments));
+	    }
+	
+	    AppLayout.prototype.render = function render() {
+	        var appContent = this.props.appContent;
+	
+	        return _react2["default"].createElement(
+	            'div',
+	            null,
+	            _react2["default"].createElement(_HeaderComponent2["default"], null),
+	            _react2["default"].createElement(
+	                'div',
+	                null,
+	                appContent
+	            )
+	        );
+	    };
+	
+	    return AppLayout;
+	}(_react.Component);
+	
+	AppLayout.propTypes = {
+	    appContent: _react.PropTypes.node
+	};
+	exports["default"] = AppLayout;
 
 /***/ },
 
-/***/ 539:
+/***/ 243:
+/*!*******************************************************!*\
+  !*** ./src/app/main/ui/components/HeaderComponent.js ***!
+  \*******************************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = __webpack_require__(299);\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar HeaderComponent = function (_Component) {\n  _inherits(HeaderComponent, _Component);\n\n  function HeaderComponent() {\n    _classCallCheck(this, HeaderComponent);\n\n    return _possibleConstructorReturn(this, _Component.apply(this, arguments));\n  }\n\n  HeaderComponent.prototype.render = function render() {\n    return _react2[\"default\"].createElement(\n      \"nav\",\n      { className: \"navbar navbar-inverse navbar-fixed-top\" },\n      _react2[\"default\"].createElement(\n        \"div\",\n        { className: \"container\" },\n        _react2[\"default\"].createElement(\n          \"div\",\n          { className: \"navbar-header\" },\n          _react2[\"default\"].createElement(\n            \"button\",\n            { type: \"button\", className: \"navbar-toggle collapsed\", \"data-toggle\": \"collapse\", \"data-target\": \"#navbar\", \"aria-expanded\": \"false\", \"aria-controls\": \"navbar\" },\n            _react2[\"default\"].createElement(\n              \"span\",\n              { className: \"sr-only\" },\n              \"Toggle navigation\"\n            ),\n            _react2[\"default\"].createElement(\"span\", { className: \"icon-bar\" }),\n            _react2[\"default\"].createElement(\"span\", { className: \"icon-bar\" }),\n            _react2[\"default\"].createElement(\"span\", { className: \"icon-bar\" })\n          ),\n          _react2[\"default\"].createElement(\n            \"a\",\n            { className: \"navbar-brand\", href: \"#\" },\n            \"Project name\"\n          )\n        ),\n        _react2[\"default\"].createElement(\n          \"div\",\n          { id: \"navbar\", className: \"collapse navbar-collapse\" },\n          _react2[\"default\"].createElement(\n            \"ul\",\n            { className: \"nav navbar-nav\" },\n            _react2[\"default\"].createElement(\n              \"li\",\n              { className: \"active\" },\n              _react2[\"default\"].createElement(\n                \"a\",\n                { href: \"#\" },\n                \"Home\"\n              )\n            ),\n            _react2[\"default\"].createElement(\n              \"li\",\n              null,\n              _react2[\"default\"].createElement(\n                \"a\",\n                { href: \"#about\" },\n                \"About\"\n              )\n            ),\n            _react2[\"default\"].createElement(\n              \"li\",\n              null,\n              _react2[\"default\"].createElement(\n                \"a\",\n                { href: \"#contact\" },\n                \"Contact\"\n              )\n            )\n          )\n        )\n      )\n    );\n  };\n\n  return HeaderComponent;\n}(_react.Component);\n\nexports[\"default\"] = HeaderComponent;//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYXBwL21haW4vdWkvY29tcG9uZW50cy9IZWFkZXJDb21wb25lbnQuanM/MWJhYiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7QUFFQTtBQUNBO0FBQ0EsQ0FBQzs7QUFFRDs7QUFFQTs7QUFFQSxzQ0FBc0MsdUNBQXVDLGtCQUFrQjs7QUFFL0YsaURBQWlELDBDQUEwQywwREFBMEQsRUFBRTs7QUFFdkosaURBQWlELGFBQWEsdUZBQXVGLEVBQUUsdUZBQXVGOztBQUU5TywwQ0FBMEMsK0RBQStELHFHQUFxRyxFQUFFLHlFQUF5RSxlQUFlLHlFQUF5RSxFQUFFLEVBQUUsdUhBQXVIOztBQUU1ZTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQSxPQUFPLHNEQUFzRDtBQUM3RDtBQUNBO0FBQ0EsU0FBUyx5QkFBeUI7QUFDbEM7QUFDQTtBQUNBLFdBQVcsNkJBQTZCO0FBQ3hDO0FBQ0E7QUFDQSxhQUFhLGlLQUFpSztBQUM5SztBQUNBO0FBQ0EsZUFBZSx1QkFBdUI7QUFDdEM7QUFDQTtBQUNBLHNEQUFzRCx3QkFBd0I7QUFDOUUsc0RBQXNELHdCQUF3QjtBQUM5RSxzREFBc0Qsd0JBQXdCO0FBQzlFO0FBQ0E7QUFDQTtBQUNBLGFBQWEsdUNBQXVDO0FBQ3BEO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxXQUFXLHNEQUFzRDtBQUNqRTtBQUNBO0FBQ0EsYUFBYSw4QkFBOEI7QUFDM0M7QUFDQTtBQUNBLGVBQWUsc0JBQXNCO0FBQ3JDO0FBQ0E7QUFDQSxpQkFBaUIsWUFBWTtBQUM3QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUJBQWlCLGlCQUFpQjtBQUNsQztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsaUJBQWlCLG1CQUFtQjtBQUNwQztBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQUVBO0FBQ0EsQ0FBQzs7QUFFRCIsImZpbGUiOiI1MzkuanMiLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBzdHJpY3RcIjtcblxuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiX19lc01vZHVsZVwiLCB7XG4gIHZhbHVlOiB0cnVlXG59KTtcblxudmFyIF9yZWFjdCA9IHJlcXVpcmUoXCJyZWFjdFwiKTtcblxudmFyIF9yZWFjdDIgPSBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0KF9yZWFjdCk7XG5cbmZ1bmN0aW9uIF9pbnRlcm9wUmVxdWlyZURlZmF1bHQob2JqKSB7IHJldHVybiBvYmogJiYgb2JqLl9fZXNNb2R1bGUgPyBvYmogOiB7IFwiZGVmYXVsdFwiOiBvYmogfTsgfVxuXG5mdW5jdGlvbiBfY2xhc3NDYWxsQ2hlY2soaW5zdGFuY2UsIENvbnN0cnVjdG9yKSB7IGlmICghKGluc3RhbmNlIGluc3RhbmNlb2YgQ29uc3RydWN0b3IpKSB7IHRocm93IG5ldyBUeXBlRXJyb3IoXCJDYW5ub3QgY2FsbCBhIGNsYXNzIGFzIGEgZnVuY3Rpb25cIik7IH0gfVxuXG5mdW5jdGlvbiBfcG9zc2libGVDb25zdHJ1Y3RvclJldHVybihzZWxmLCBjYWxsKSB7IGlmICghc2VsZikgeyB0aHJvdyBuZXcgUmVmZXJlbmNlRXJyb3IoXCJ0aGlzIGhhc24ndCBiZWVuIGluaXRpYWxpc2VkIC0gc3VwZXIoKSBoYXNuJ3QgYmVlbiBjYWxsZWRcIik7IH0gcmV0dXJuIGNhbGwgJiYgKHR5cGVvZiBjYWxsID09PSBcIm9iamVjdFwiIHx8IHR5cGVvZiBjYWxsID09PSBcImZ1bmN0aW9uXCIpID8gY2FsbCA6IHNlbGY7IH1cblxuZnVuY3Rpb24gX2luaGVyaXRzKHN1YkNsYXNzLCBzdXBlckNsYXNzKSB7IGlmICh0eXBlb2Ygc3VwZXJDbGFzcyAhPT0gXCJmdW5jdGlvblwiICYmIHN1cGVyQ2xhc3MgIT09IG51bGwpIHsgdGhyb3cgbmV3IFR5cGVFcnJvcihcIlN1cGVyIGV4cHJlc3Npb24gbXVzdCBlaXRoZXIgYmUgbnVsbCBvciBhIGZ1bmN0aW9uLCBub3QgXCIgKyB0eXBlb2Ygc3VwZXJDbGFzcyk7IH0gc3ViQ2xhc3MucHJvdG90eXBlID0gT2JqZWN0LmNyZWF0ZShzdXBlckNsYXNzICYmIHN1cGVyQ2xhc3MucHJvdG90eXBlLCB7IGNvbnN0cnVjdG9yOiB7IHZhbHVlOiBzdWJDbGFzcywgZW51bWVyYWJsZTogZmFsc2UsIHdyaXRhYmxlOiB0cnVlLCBjb25maWd1cmFibGU6IHRydWUgfSB9KTsgaWYgKHN1cGVyQ2xhc3MpIE9iamVjdC5zZXRQcm90b3R5cGVPZiA/IE9iamVjdC5zZXRQcm90b3R5cGVPZihzdWJDbGFzcywgc3VwZXJDbGFzcykgOiBzdWJDbGFzcy5fX3Byb3RvX18gPSBzdXBlckNsYXNzOyB9XG5cbnZhciBIZWFkZXJDb21wb25lbnQgPSBmdW5jdGlvbiAoX0NvbXBvbmVudCkge1xuICBfaW5oZXJpdHMoSGVhZGVyQ29tcG9uZW50LCBfQ29tcG9uZW50KTtcblxuICBmdW5jdGlvbiBIZWFkZXJDb21wb25lbnQoKSB7XG4gICAgX2NsYXNzQ2FsbENoZWNrKHRoaXMsIEhlYWRlckNvbXBvbmVudCk7XG5cbiAgICByZXR1cm4gX3Bvc3NpYmxlQ29uc3RydWN0b3JSZXR1cm4odGhpcywgX0NvbXBvbmVudC5hcHBseSh0aGlzLCBhcmd1bWVudHMpKTtcbiAgfVxuXG4gIEhlYWRlckNvbXBvbmVudC5wcm90b3R5cGUucmVuZGVyID0gZnVuY3Rpb24gcmVuZGVyKCkge1xuICAgIHJldHVybiBfcmVhY3QyW1wiZGVmYXVsdFwiXS5jcmVhdGVFbGVtZW50KFxuICAgICAgXCJuYXZcIixcbiAgICAgIHsgY2xhc3NOYW1lOiBcIm5hdmJhciBuYXZiYXItaW52ZXJzZSBuYXZiYXItZml4ZWQtdG9wXCIgfSxcbiAgICAgIF9yZWFjdDJbXCJkZWZhdWx0XCJdLmNyZWF0ZUVsZW1lbnQoXG4gICAgICAgIFwiZGl2XCIsXG4gICAgICAgIHsgY2xhc3NOYW1lOiBcImNvbnRhaW5lclwiIH0sXG4gICAgICAgIF9yZWFjdDJbXCJkZWZhdWx0XCJdLmNyZWF0ZUVsZW1lbnQoXG4gICAgICAgICAgXCJkaXZcIixcbiAgICAgICAgICB7IGNsYXNzTmFtZTogXCJuYXZiYXItaGVhZGVyXCIgfSxcbiAgICAgICAgICBfcmVhY3QyW1wiZGVmYXVsdFwiXS5jcmVhdGVFbGVtZW50KFxuICAgICAgICAgICAgXCJidXR0b25cIixcbiAgICAgICAgICAgIHsgdHlwZTogXCJidXR0b25cIiwgY2xhc3NOYW1lOiBcIm5hdmJhci10b2dnbGUgY29sbGFwc2VkXCIsIFwiZGF0YS10b2dnbGVcIjogXCJjb2xsYXBzZVwiLCBcImRhdGEtdGFyZ2V0XCI6IFwiI25hdmJhclwiLCBcImFyaWEtZXhwYW5kZWRcIjogXCJmYWxzZVwiLCBcImFyaWEtY29udHJvbHNcIjogXCJuYXZiYXJcIiB9LFxuICAgICAgICAgICAgX3JlYWN0MltcImRlZmF1bHRcIl0uY3JlYXRlRWxlbWVudChcbiAgICAgICAgICAgICAgXCJzcGFuXCIsXG4gICAgICAgICAgICAgIHsgY2xhc3NOYW1lOiBcInNyLW9ubHlcIiB9LFxuICAgICAgICAgICAgICBcIlRvZ2dsZSBuYXZpZ2F0aW9uXCJcbiAgICAgICAgICAgICksXG4gICAgICAgICAgICBfcmVhY3QyW1wiZGVmYXVsdFwiXS5jcmVhdGVFbGVtZW50KFwic3BhblwiLCB7IGNsYXNzTmFtZTogXCJpY29uLWJhclwiIH0pLFxuICAgICAgICAgICAgX3JlYWN0MltcImRlZmF1bHRcIl0uY3JlYXRlRWxlbWVudChcInNwYW5cIiwgeyBjbGFzc05hbWU6IFwiaWNvbi1iYXJcIiB9KSxcbiAgICAgICAgICAgIF9yZWFjdDJbXCJkZWZhdWx0XCJdLmNyZWF0ZUVsZW1lbnQoXCJzcGFuXCIsIHsgY2xhc3NOYW1lOiBcImljb24tYmFyXCIgfSlcbiAgICAgICAgICApLFxuICAgICAgICAgIF9yZWFjdDJbXCJkZWZhdWx0XCJdLmNyZWF0ZUVsZW1lbnQoXG4gICAgICAgICAgICBcImFcIixcbiAgICAgICAgICAgIHsgY2xhc3NOYW1lOiBcIm5hdmJhci1icmFuZFwiLCBocmVmOiBcIiNcIiB9LFxuICAgICAgICAgICAgXCJQcm9qZWN0IG5hbWVcIlxuICAgICAgICAgIClcbiAgICAgICAgKSxcbiAgICAgICAgX3JlYWN0MltcImRlZmF1bHRcIl0uY3JlYXRlRWxlbWVudChcbiAgICAgICAgICBcImRpdlwiLFxuICAgICAgICAgIHsgaWQ6IFwibmF2YmFyXCIsIGNsYXNzTmFtZTogXCJjb2xsYXBzZSBuYXZiYXItY29sbGFwc2VcIiB9LFxuICAgICAgICAgIF9yZWFjdDJbXCJkZWZhdWx0XCJdLmNyZWF0ZUVsZW1lbnQoXG4gICAgICAgICAgICBcInVsXCIsXG4gICAgICAgICAgICB7IGNsYXNzTmFtZTogXCJuYXYgbmF2YmFyLW5hdlwiIH0sXG4gICAgICAgICAgICBfcmVhY3QyW1wiZGVmYXVsdFwiXS5jcmVhdGVFbGVtZW50KFxuICAgICAgICAgICAgICBcImxpXCIsXG4gICAgICAgICAgICAgIHsgY2xhc3NOYW1lOiBcImFjdGl2ZVwiIH0sXG4gICAgICAgICAgICAgIF9yZWFjdDJbXCJkZWZhdWx0XCJdLmNyZWF0ZUVsZW1lbnQoXG4gICAgICAgICAgICAgICAgXCJhXCIsXG4gICAgICAgICAgICAgICAgeyBocmVmOiBcIiNcIiB9LFxuICAgICAgICAgICAgICAgIFwiSG9tZVwiXG4gICAgICAgICAgICAgIClcbiAgICAgICAgICAgICksXG4gICAgICAgICAgICBfcmVhY3QyW1wiZGVmYXVsdFwiXS5jcmVhdGVFbGVtZW50KFxuICAgICAgICAgICAgICBcImxpXCIsXG4gICAgICAgICAgICAgIG51bGwsXG4gICAgICAgICAgICAgIF9yZWFjdDJbXCJkZWZhdWx0XCJdLmNyZWF0ZUVsZW1lbnQoXG4gICAgICAgICAgICAgICAgXCJhXCIsXG4gICAgICAgICAgICAgICAgeyBocmVmOiBcIiNhYm91dFwiIH0sXG4gICAgICAgICAgICAgICAgXCJBYm91dFwiXG4gICAgICAgICAgICAgIClcbiAgICAgICAgICAgICksXG4gICAgICAgICAgICBfcmVhY3QyW1wiZGVmYXVsdFwiXS5jcmVhdGVFbGVtZW50KFxuICAgICAgICAgICAgICBcImxpXCIsXG4gICAgICAgICAgICAgIG51bGwsXG4gICAgICAgICAgICAgIF9yZWFjdDJbXCJkZWZhdWx0XCJdLmNyZWF0ZUVsZW1lbnQoXG4gICAgICAgICAgICAgICAgXCJhXCIsXG4gICAgICAgICAgICAgICAgeyBocmVmOiBcIiNjb250YWN0XCIgfSxcbiAgICAgICAgICAgICAgICBcIkNvbnRhY3RcIlxuICAgICAgICAgICAgICApXG4gICAgICAgICAgICApXG4gICAgICAgICAgKVxuICAgICAgICApXG4gICAgICApXG4gICAgKTtcbiAgfTtcblxuICByZXR1cm4gSGVhZGVyQ29tcG9uZW50O1xufShfcmVhY3QuQ29tcG9uZW50KTtcblxuZXhwb3J0c1tcImRlZmF1bHRcIl0gPSBIZWFkZXJDb21wb25lbnQ7XG5cblxuLyoqKioqKioqKioqKioqKioqXG4gKiogV0VCUEFDSyBGT09URVJcbiAqKiAuL3NyYy9hcHAvbWFpbi91aS9jb21wb25lbnRzL0hlYWRlckNvbXBvbmVudC5qc1xuICoqIG1vZHVsZSBpZCA9IDUzOVxuICoqIG1vZHVsZSBjaHVua3MgPSAwXG4gKiovIl0sInNvdXJjZVJvb3QiOiIifQ==");
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _react = __webpack_require__(/*! react */ 2);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _HeaderComponent = __webpack_require__(/*! ./HeaderComponent.css */ 244);
+	
+	var _HeaderComponent2 = _interopRequireDefault(_HeaderComponent);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var HeaderComponent = function (_Component) {
+	    _inherits(HeaderComponent, _Component);
+	
+	    function HeaderComponent() {
+	        _classCallCheck(this, HeaderComponent);
+	
+	        return _possibleConstructorReturn(this, _Component.apply(this, arguments));
+	    }
+	
+	    HeaderComponent.prototype.render = function render() {
+	        return _react2["default"].createElement(
+	            'nav',
+	            { className: 'navbar navbar-default' },
+	            _react2["default"].createElement(
+	                'div',
+	                { className: 'container-fluid' },
+	                _react2["default"].createElement(
+	                    'div',
+	                    { className: 'navbar-header' },
+	                    _react2["default"].createElement(
+	                        'a',
+	                        { className: 'navbar-brand ' + _HeaderComponent2["default"].brandName, href: '#' },
+	                        'Around the world in Eighty Days'
+	                    )
+	                ),
+	                _react2["default"].createElement(
+	                    'ul',
+	                    { className: 'nav navbar-nav' },
+	                    _react2["default"].createElement(
+	                        'li',
+	                        { className: 'active' },
+	                        _react2["default"].createElement(
+	                            'a',
+	                            { href: '#' },
+	                            'Home'
+	                        )
+	                    ),
+	                    _react2["default"].createElement(
+	                        'li',
+	                        null,
+	                        _react2["default"].createElement(
+	                            'a',
+	                            { href: '#' },
+	                            'Search'
+	                        )
+	                    ),
+	                    _react2["default"].createElement(
+	                        'li',
+	                        null,
+	                        _react2["default"].createElement(
+	                            'a',
+	                            { href: '#' },
+	                            'Travellers\' kit'
+	                        )
+	                    ),
+	                    _react2["default"].createElement(
+	                        'li',
+	                        null,
+	                        _react2["default"].createElement(
+	                            'a',
+	                            { href: '#' },
+	                            'Login'
+	                        )
+	                    )
+	                )
+	            )
+	        );
+	    };
+	
+	    return HeaderComponent;
+	}(_react.Component);
+	
+	exports["default"] = HeaderComponent;
 
 /***/ },
 
-/***/ 540:
-/***/ function(module, exports, __webpack_require__) {
+/***/ 244:
+/*!********************************************************!*\
+  !*** ./src/app/main/ui/components/HeaderComponent.css ***!
+  \********************************************************/
+/***/ function(module, exports) {
 
-	eval("'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\nexports[\"default\"] = configureStore;\n\nvar _redux = __webpack_require__(464);\n\nvar _reactRouterRedux = __webpack_require__(541);\n\nvar _reduxThunk = __webpack_require__(542);\n\nvar _reduxThunk2 = _interopRequireDefault(_reduxThunk);\n\nvar _appHistory = __webpack_require__(536);\n\nvar AppHistory = _interopRequireWildcard(_appHistory);\n\nvar _appReducer = __webpack_require__(543);\n\nvar _appReducer2 = _interopRequireDefault(_appReducer);\n\nfunction _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj[\"default\"] = obj; return newObj; } }\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { \"default\": obj }; }\n\nfunction configureStore(initialState) {\n    var appHistory = AppHistory.getAppHistory();\n\n    return (0, _redux.createStore)(_appReducer2[\"default\"], initialState, (0, _redux.compose)((0, _redux.applyMiddleware)(_reduxThunk2[\"default\"], (0, _reactRouterRedux.syncHistory)(appHistory)), window.devToolsExtensions ? window.devToolsExtensions() : function (f) {\n        return f;\n    }));\n}//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYXBwL21haW4vc3RvcmUvYXBwU3RvcmUuanM/OTIwOCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7QUFFQTtBQUNBO0FBQ0EsQ0FBQztBQUNEOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBOztBQUVBLHVDQUF1Qyw2QkFBNkIsWUFBWSxFQUFFLE9BQU8saUJBQWlCLG1CQUFtQix1QkFBdUIsNEVBQTRFLEVBQUUsRUFBRSx5QkFBeUIsZUFBZSxFQUFFOztBQUU5USxzQ0FBc0MsdUNBQXVDLGtCQUFrQjs7QUFFL0Y7QUFDQTs7QUFFQTtBQUNBO0FBQ0EsS0FBSztBQUNMIiwiZmlsZSI6IjU0MC5qcyIsInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0JztcblxuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiX19lc01vZHVsZVwiLCB7XG4gICAgdmFsdWU6IHRydWVcbn0pO1xuZXhwb3J0c1tcImRlZmF1bHRcIl0gPSBjb25maWd1cmVTdG9yZTtcblxudmFyIF9yZWR1eCA9IHJlcXVpcmUoJ3JlZHV4Jyk7XG5cbnZhciBfcmVhY3RSb3V0ZXJSZWR1eCA9IHJlcXVpcmUoJ3JlYWN0LXJvdXRlci1yZWR1eCcpO1xuXG52YXIgX3JlZHV4VGh1bmsgPSByZXF1aXJlKCdyZWR1eC10aHVuaycpO1xuXG52YXIgX3JlZHV4VGh1bmsyID0gX2ludGVyb3BSZXF1aXJlRGVmYXVsdChfcmVkdXhUaHVuayk7XG5cbnZhciBfYXBwSGlzdG9yeSA9IHJlcXVpcmUoJ3NyYy9hcHAvbWFpbi9tb2R1bGVzL2FwcEhpc3RvcnknKTtcblxudmFyIEFwcEhpc3RvcnkgPSBfaW50ZXJvcFJlcXVpcmVXaWxkY2FyZChfYXBwSGlzdG9yeSk7XG5cbnZhciBfYXBwUmVkdWNlciA9IHJlcXVpcmUoJ3NyYy9hcHAvbWFpbi9yZWR1Y2Vycy9hcHBSZWR1Y2VyJyk7XG5cbnZhciBfYXBwUmVkdWNlcjIgPSBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0KF9hcHBSZWR1Y2VyKTtcblxuZnVuY3Rpb24gX2ludGVyb3BSZXF1aXJlV2lsZGNhcmQob2JqKSB7IGlmIChvYmogJiYgb2JqLl9fZXNNb2R1bGUpIHsgcmV0dXJuIG9iajsgfSBlbHNlIHsgdmFyIG5ld09iaiA9IHt9OyBpZiAob2JqICE9IG51bGwpIHsgZm9yICh2YXIga2V5IGluIG9iaikgeyBpZiAoT2JqZWN0LnByb3RvdHlwZS5oYXNPd25Qcm9wZXJ0eS5jYWxsKG9iaiwga2V5KSkgbmV3T2JqW2tleV0gPSBvYmpba2V5XTsgfSB9IG5ld09ialtcImRlZmF1bHRcIl0gPSBvYmo7IHJldHVybiBuZXdPYmo7IH0gfVxuXG5mdW5jdGlvbiBfaW50ZXJvcFJlcXVpcmVEZWZhdWx0KG9iaikgeyByZXR1cm4gb2JqICYmIG9iai5fX2VzTW9kdWxlID8gb2JqIDogeyBcImRlZmF1bHRcIjogb2JqIH07IH1cblxuZnVuY3Rpb24gY29uZmlndXJlU3RvcmUoaW5pdGlhbFN0YXRlKSB7XG4gICAgdmFyIGFwcEhpc3RvcnkgPSBBcHBIaXN0b3J5LmdldEFwcEhpc3RvcnkoKTtcblxuICAgIHJldHVybiAoMCwgX3JlZHV4LmNyZWF0ZVN0b3JlKShfYXBwUmVkdWNlcjJbXCJkZWZhdWx0XCJdLCBpbml0aWFsU3RhdGUsICgwLCBfcmVkdXguY29tcG9zZSkoKDAsIF9yZWR1eC5hcHBseU1pZGRsZXdhcmUpKF9yZWR1eFRodW5rMltcImRlZmF1bHRcIl0sICgwLCBfcmVhY3RSb3V0ZXJSZWR1eC5zeW5jSGlzdG9yeSkoYXBwSGlzdG9yeSkpLCB3aW5kb3cuZGV2VG9vbHNFeHRlbnNpb25zID8gd2luZG93LmRldlRvb2xzRXh0ZW5zaW9ucygpIDogZnVuY3Rpb24gKGYpIHtcbiAgICAgICAgcmV0dXJuIGY7XG4gICAgfSkpO1xufVxuXG5cbi8qKioqKioqKioqKioqKioqKlxuICoqIFdFQlBBQ0sgRk9PVEVSXG4gKiogLi9zcmMvYXBwL21haW4vc3RvcmUvYXBwU3RvcmUuanNcbiAqKiBtb2R1bGUgaWQgPSA1NDBcbiAqKiBtb2R1bGUgY2h1bmtzID0gMFxuICoqLyJdLCJzb3VyY2VSb290IjoiIn0=");
+	// removed by extract-text-webpack-plugin
+	module.exports = {"brandName":"HeaderComponent__brandName___3c5Eu"};
 
 /***/ },
 
-/***/ 543:
+/***/ 245:
+/*!****************************************!*\
+  !*** ./src/app/main/store/appStore.js ***!
+  \****************************************/
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _reactRouterRedux = __webpack_require__(541);\n\nvar _redux = __webpack_require__(464);\n\nvar appReducer = (0, _redux.combineReducers)({\n    routing: _reactRouterRedux.routeReducer\n});\n\nexports[\"default\"] = appReducer;//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvYXBwL21haW4vcmVkdWNlcnMvYXBwUmVkdWNlci5qcz80MmY1Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztBQUVBO0FBQ0E7QUFDQSxDQUFDOztBQUVEOztBQUVBOztBQUVBO0FBQ0E7QUFDQSxDQUFDOztBQUVEIiwiZmlsZSI6IjU0My5qcyIsInNvdXJjZXNDb250ZW50IjpbIid1c2Ugc3RyaWN0JztcblxuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiX19lc01vZHVsZVwiLCB7XG4gICAgdmFsdWU6IHRydWVcbn0pO1xuXG52YXIgX3JlYWN0Um91dGVyUmVkdXggPSByZXF1aXJlKCdyZWFjdC1yb3V0ZXItcmVkdXgnKTtcblxudmFyIF9yZWR1eCA9IHJlcXVpcmUoJ3JlZHV4Jyk7XG5cbnZhciBhcHBSZWR1Y2VyID0gKDAsIF9yZWR1eC5jb21iaW5lUmVkdWNlcnMpKHtcbiAgICByb3V0aW5nOiBfcmVhY3RSb3V0ZXJSZWR1eC5yb3V0ZVJlZHVjZXJcbn0pO1xuXG5leHBvcnRzW1wiZGVmYXVsdFwiXSA9IGFwcFJlZHVjZXI7XG5cblxuLyoqKioqKioqKioqKioqKioqXG4gKiogV0VCUEFDSyBGT09URVJcbiAqKiAuL3NyYy9hcHAvbWFpbi9yZWR1Y2Vycy9hcHBSZWR1Y2VyLmpzXG4gKiogbW9kdWxlIGlkID0gNTQzXG4gKiogbW9kdWxlIGNodW5rcyA9IDBcbiAqKi8iXSwic291cmNlUm9vdCI6IiJ9");
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	exports["default"] = configureStore;
+	
+	var _redux = __webpack_require__(/*! redux */ 168);
+	
+	var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 246);
+	
+	var _reduxThunk = __webpack_require__(/*! redux-thunk */ 247);
+	
+	var _reduxThunk2 = _interopRequireDefault(_reduxThunk);
+	
+	var _appHistory = __webpack_require__(/*! src/app/main/modules/appHistory */ 240);
+	
+	var AppHistory = _interopRequireWildcard(_appHistory);
+	
+	var _appReducer = __webpack_require__(/*! src/app/main/reducers/appReducer */ 248);
+	
+	var _appReducer2 = _interopRequireDefault(_appReducer);
+	
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj["default"] = obj; return newObj; } }
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function configureStore(initialState) {
+	    var appHistory = AppHistory.getAppHistory();
+	
+	    return (0, _redux.createStore)(_appReducer2["default"], initialState, (0, _redux.compose)((0, _redux.applyMiddleware)(_reduxThunk2["default"], (0, _reactRouterRedux.syncHistory)(appHistory)), window.devToolsExtensions ? window.devToolsExtensions() : function (f) {
+	        return f;
+	    }));
+	}
+
+/***/ },
+
+/***/ 248:
+/*!*********************************************!*\
+  !*** ./src/app/main/reducers/appReducer.js ***!
+  \*********************************************/
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _reactRouterRedux = __webpack_require__(/*! react-router-redux */ 246);
+	
+	var _redux = __webpack_require__(/*! redux */ 168);
+	
+	var appReducer = (0, _redux.combineReducers)({
+	    routing: _reactRouterRedux.routeReducer
+	});
+	
+	exports["default"] = appReducer;
 
 /***/ }
 
 });
+//# sourceMappingURL=bundle.js.map
