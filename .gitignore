@@ -3,6 +3,8 @@
 # =========================
 /node_modules
 /.idea
+/obj
+/bin
 
 # Windows image file caches
 Thumbs.db
