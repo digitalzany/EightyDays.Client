@@ -1,0 +1,3 @@
+﻿export const SUBMIT_SEARCH = 'SUBMIT_SEARCH'
+export const SUCCEED_SEARCH = 'SUCCEED_SEARCH'
+export const FAIL_SEARCH = 'FAIL_SEARCH'
