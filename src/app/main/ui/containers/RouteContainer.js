@@ -3,14 +3,7 @@ import {Provider} from 'react-redux'
 import {Router, Route, IndexRoute} from 'react-router'
 import * as AppHistory from 'src/app/main/modules/appHistory'
 import AppContainer from 'src/app/main/ui/containers/AppContainer'
-
-class DashboardContainer extends Component {
-    render (){
-        return (
-            <div>Dashboard</div>
-        )
-    }
-}
+import SearchContainer from 'src/app/search/ui/containers/SearchContainer'
 
 class RouteContainer extends Component {
     render() {
@@ -21,7 +14,7 @@ class RouteContainer extends Component {
                 <div>
                     <Router history={appHistory}>
                         <Route path="/" component={AppContainer}>
-                            <IndexRoute component={DashboardContainer} />
+                            <IndexRoute component={SearchContainer} />
                         </Route>
                     </Router>
                 </div>

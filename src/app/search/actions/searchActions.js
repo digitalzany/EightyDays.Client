@@ -15,11 +15,18 @@ function failSearch(errorMessage){
 
 export function search(searchCriteria){
     return dispatch => {
-        dispatch(submitSearch(searchCriteria))
-        window.fetch(uiconfig.GetAllStocks_Api, {credentials: 'include' }).then(res => {
-            console.log('ok', res);
+        dispatch(submitSearch(searchCriteria));
+        window.fetch(uiconfig.Spots_Api).then(res => {
+            let parseJson = res.json();
+            parseJson.then(json => {
+                dispatch(succeedSearch(json));
+            }).catch(err => {
+                console.log('err', err);
+                dispatch(failSearch('error in parsing response to json'));
+            });
         }).catch(err => {
             console.log('error', err);
+            dispatch(failSearch('error in search'));
         });
     };
 }

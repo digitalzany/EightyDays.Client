@@ -13,7 +13,7 @@ export default function configureStore(initialState) {
         initialState,
         compose(
             applyMiddleware(thunk, syncHistory(appHistory)),
-            window.devToolsExtensions? window.devToolsExtensions(): f=>f
+            window.devToolsExtension ? window.devToolsExtension() : f => f
         )
     );
 }

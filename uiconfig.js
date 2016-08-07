@@ -1,6 +1,6 @@
 ﻿var config = {
-    GetAllStocks_Api: "https://localhost:44369/api/stocks/allstocks",
-    GetStockById_Api: "https://localhost:44369/api/stocks/{stockId}",
-    PostAddStock_Api: "https://localhost:44369/api/stocks/addStock"
+    Spots_Api: 'http://azureeightydayswebapp.azurewebsites.net/api/v1.0/spots/',
+    Places_Api: 'http://localhost:30002/api/v1.0/places/',
+    Photos_Api: 'http://localhost:30002/api/v1.0/photos/'
 }
 window.uiconfig = config;
